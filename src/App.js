@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         Learn React using github actions with CI/CD.
+         Deploying react application on github pages with github action pipeline.
         </a>
       </header>
     </div>
