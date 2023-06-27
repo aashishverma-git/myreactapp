@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         Deploy react app using github actions.... 
+         Learn React using github actions
         </a>
       </header>
     </div>
