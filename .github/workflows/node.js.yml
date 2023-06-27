@@ -22,7 +22,7 @@ jobs:
        fetch-depth: '0'
        token: ${{ github.token }}
     - name : git add notes
-      run:
+      run: |
         git config user.name "aashishverma-git"
         git config user.email "aashish23verma@gmail.com"
 
