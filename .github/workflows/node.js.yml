@@ -18,6 +18,14 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      with:
+       fetch-depth: '0'
+       token: ${{ github.token }}
+    - name : git add notes
+      run:
+        git config user.name "aashishverma-git"
+        git config user.email "aashish23verma@gmail.com"
+
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
