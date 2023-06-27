@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         Learn React using github actions with CI/CD
+         Learn React using github actions with CI/CD.
         </a>
       </header>
     </div>
